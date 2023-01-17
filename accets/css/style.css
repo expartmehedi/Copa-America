@@ -1,0 +1,271 @@
+/* 
+    Templeate Name  : Copa-America-2021
+    Author          : Expart Mehedi
+    Author URL      : https://www.facebook.com/contact.developermehedi
+
+*/
+
+/************* Tabel Content *********/
+/* 
+    01. Header Section
+*/
+
+/* Utility */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: normal;
+}
+:root{
+    --FFD16E: #FFD16E;
+    --6FDCFF: #6FDCFF;
+    --99E7FF: #99E7FF;
+    --6C63FF: #6C63FF;
+    --C0F37E: #C0F37E;
+    --FFE458: #FFE458;
+    --FF6584: #FF6584;
+    --FFFFFF: #FFFFFF;
+    --1F232D: #1F232D;
+    --3F3D56: #3F3D56;
+    --2D25A0: #2D25A0;
+    --font_weight-400: 400;
+    --font_weight-500: 500;
+    --font_weight-600: 600;
+    --font_weight-700: 700;
+    --font_weight-800: 800;
+    --font_weight-900: 900;
+    --font_size-21: 21px;
+    --font_size-24: 24px;
+    --font_size-25: 25px;
+    --font_size-36: 36px;
+    --font_size-72: 72.03px;
+    --font_size-77: 77px;
+    --font_size-42: 42.19px;
+    --font_size-43: 43.19px;
+    --font_size-28: 28.13px;
+}
+.container-fluid{
+    max-width: 1170px;
+    margin: auto;
+}
+.containe{
+    max-width: 1080px;
+    margin: auto;
+}
+
+a       {text-decoration: none; display: inline-block;}
+li      {list-style: none;}
+img     { max-width: 100%;}
+.d-grid {display: grid;}
+
+/* Section */
+
+/* Main CSS Start-------------------------------- */
+
+/* Header Section Start */
+
+.header {background-color: var(--2D25A0);}
+.header-seciton {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.header-left-menu button {
+	display: none;
+}
+.header-left-menu ul {
+    display: flex;
+    gap: 36px;
+}
+.header-left-menu ul li{}
+.header-left-menu ul li a {
+    color: var(--FFFFFF);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: var(--font_weight-500);
+}
+.header-right-button{}
+.header-right-button button{
+    padding: 15px 50px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 2px;
+}
+.header-right-button button i {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+.header-right-button button a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--FFFFFF);
+}
+/* Header Section  End*/
+/* Banner-section Start */
+#banner {
+    background-color: #2D25A0;
+    padding-top: 65px;
+}
+.banner-seciton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left-text h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: var(--FFFFFF);
+    margin-bottom: 20px;
+}
+.banner-left-text button{
+    padding: 15px 50px;
+    background-color: #E02C6D;
+}
+.banner-left-text button a{
+    color: var(--FFFFFF);
+    font-weight: var(--font_weight-500);
+    font-size: 20px;
+}
+
+.banner-right-image{
+    position: relative;
+    margin-right: 50px;
+    z-index: 1;
+}
+.banner-right-image::before{
+    position: absolute;
+    content: "";
+    height: 400px;
+    width: 345px;
+    border: 2px solid #FFFFFF;
+    border-radius: 0 90px 0 0 ;
+    left: 122px;
+    top: -20px;
+    z-index: -1;
+}
+.banner-right-image::after{
+    position: absolute;
+    content: "";
+    height: 400px;
+    width: 345px;
+    background-color: #3dbafd;
+    border-radius: 0 90px 0 0 ;
+    left: 83px;
+    top: -2px;
+    z-index: -1;
+}
+/* Banner-section End */
+/* Player-Detail-section Start */
+.Players-detail-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.player {
+    width: 300px;
+    height: 470px;
+    box-shadow: 0px 0px 20px #ddd;
+    padding: 20px;
+}
+.player img { max-width: 100%; }
+.player h1 {
+    font-size: 30px;
+    line-height: 80px;
+    color: #000;
+}
+.player p {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Poppins';
+}
+/* Player-Detail-section End */
+/* Footer-section Start */
+#footer{
+    padding: 120px;
+}
+.foooter-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer-left-content{}
+.footer-left-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    padding: 50px 0 20px 0;
+    font-family: 'Poppins';
+}
+.footer-left-content p {
+    font-family: 'popins';
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    margin-right: 150px;
+    padding-bottom: 30px;
+}
+.footer-left-content button{
+    padding: 15px 50px;
+    background-color: #E02C6D;
+    border: none;
+}
+.footer-left-content button a{
+    color: var(--FFFFFF);
+    font-weight: var(--font_weight-500);
+    font-size: 20px;
+}
+.footer-bottom{
+    padding-top: 150px;
+    text-align-last: center;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo h1{
+    font-size: 70px;
+    font-family: 'Niconne';
+    color: #10437A;
+    font-weight: 400;
+}
+.footer-social-icon{
+    padding-top: 20px;
+}
+.footer-social-icon a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #e7e7e8;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.footer-social-icon i{
+    font-size: 35px;
+    font-weight: 900;
+    color: #969bab;
+    margin-top: 10px;
+}
+
+#footer h4{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 400;
+    font-family: 'Niconne';
+    font-size: 30px;
+}
+/* Footer-section End */
+
+
+
+    /* Main CSS END */

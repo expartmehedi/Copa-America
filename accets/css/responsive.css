@@ -1,0 +1,138 @@
+@media only screen and (max-width: 1024px){
+    /* ------------Banner Section----start------ */
+    .banner-left-text h1 {
+        font-size: 50px;
+        line-height: 70px;
+        margin: 0 0 25px 25px;
+    }
+    /* ------------Banner Section----End------ */
+    /*-- Player-Detail-Section-----Start --*/
+    .Players-detail-section {
+        gap: 0;
+      }
+    /*-- Player-Detail-Section-----End --*/
+}
+
+@media only screen and (max-width: 900px){
+        /* ------------Header Section----start------ */
+        .header-right-button button { padding: 10px 20px;}
+
+        /* ------------Header Section----End------ */
+
+        /* ------------Banner Section----start------ */
+        #banner {
+            padding-top: 45px;
+            padding-bottom: 40px;
+          }
+        .banner-left-text {
+            margin: -50px 100px 0 70px;
+        }
+        .banner-left-text h1 {
+            font-size: 40px;
+            line-height: 60px;
+        }
+        .banner-right-image img{
+            max-width: 90%;
+        }
+        .banner-right-image::before {
+            height: 300px;
+            width: 245px;
+        }
+        .banner-right-image::after {
+            height: 300px;
+            width: 245px;
+        }
+    /* ------------Banner Section----End------ */
+    /*-- Player-Detail-Section-----Start --*/
+        .Players-detail-section {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            padding-left: 60px;
+        }
+    /*-- Player-Detail-Section-----End --*/
+
+}
+@media only screen and (max-width: 790px){
+        /* ------------Header Section----start------ */
+        .header-left-menu ul { display: none;}
+        .header-left-menu button { 
+        display: block;
+        padding: 5px 8px 5px 0;
+        font-size: 35px;
+        color: #fff;
+        background: var(--2D25A0);
+        border: none;}
+        /* ------------Header Section----End------ */
+
+        /* ------------Banner Section----start------ */
+        .banner-seciton {
+            display: grid;
+            grid-template-rows: 1fr;
+            gap: 10px;
+            text-align: center;
+        }
+        .banner-left-text {
+            margin: -85px 0 60px 60px;
+        }
+        .banner-left-text h1 {
+            font-size: 59px;
+            line-height: 100px;
+        }
+        .banner-right-image::before {
+            height: 400px;
+            width: 345px;
+        }
+        .banner-right-image::after {
+            height: 400px;
+            width: 345px;
+        }
+        .banner-right-image { margin: 10px 0 0 120px; }
+        /* ------------Banner Section----End------ */
+            /*-- Player-Detail-Section-----Start --*/
+            .Players-detail-section {
+                padding-left: 40px;
+            }
+        /*-- Player-Detail-Section-----End --*/
+        /*-- Footer-section ---------Start --*/
+        .foooter-section {
+            grid-template-columns: 1fr;
+            gap: 50px;
+        }
+        .footer-social-icon a {
+            margin-left: 10px;
+        }
+        /*-- Footer-section ---------End --*/
+
+}
+@media only screen and (max-width: 600px){
+        /* ------------Banner Section----start------ */
+        .banner-left-text { margin: -85px 0 50px 0; }
+        .banner-right-image { margin: 10px 0 0 20px; }
+        /* ------------Banner Section----End------ */
+            /*-- Player-Detail-Section-----Start --*/
+            .Players-detail-section {
+                grid-template-columns: 1fr;
+                justify-content: center;
+                align-items: center;
+                margin: 50px auto;
+            }
+        /*-- Player-Detail-Section-----End --*/
+                /*-- Footer-section ---------Start --*/
+        .foooter-section {
+            grid-template-columns: 1fr;
+            gap: 60px;
+        }
+        /*-- Footer-section ---------End --*/
+        /*-- Footer-section ---------Start --*/
+        .footer-left-content h1 {font-size: 45px; }
+        .footer-left-content p {margin-right: 0;}
+        /*-- Footer-section ---------End --*/
+}
+@media only screen and (max-width: 480px){
+        /* ------------Banner Section----start------ */
+    .banner-left-text h1 { font-size: 50px; line-height: 85px; }
+    .banner-right-image::before { height: 300px; width: 245px; }
+    .banner-right-image::after { height: 300px; width: 245px; }
+        /* ------------Banner Section----End------ */
+}
